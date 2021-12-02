@@ -23,6 +23,7 @@ GEM
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
+    rake (13.0.6)
     require_all (3.0.0)
     ruby2_keywords (0.0.5)
     sinatra (2.1.0)
@@ -45,6 +46,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   colorize
+  rake
   require_all
   sinatra-activerecord
   sqlite3
