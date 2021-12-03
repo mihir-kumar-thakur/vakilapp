@@ -5,10 +5,10 @@ gem "sinatra-activerecord"
 
 gem "sqlite3"
 
-gem "byebug"
-
 gem "require_all"
 
 gem "colorize"
 
 gem "rake"
+
+gem "pry"
