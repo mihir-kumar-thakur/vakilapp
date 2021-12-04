@@ -34,7 +34,6 @@ ActiveRecord::Schema.define(version: 2021_12_03_140523) do
     t.string "case_code"
     t.integer "state_id"
     t.index ["case_code"], name: "index_cases_on_case_code", unique: true
-    t.index ["state_id"], name: "index_cases_on_state_id", unique: true
   end
 
   create_table "states", force: :cascade do |t|

@@ -6,6 +6,5 @@ class CreateCases < ActiveRecord::Migration[6.1]
     end
 
     add_index :cases, :case_code, unique: true
-    add_index :cases, :state_id, unique: true
   end
 end
